@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #1A1B21;
+}
+
+h1, h3{
+    margin: 0;
+}
+
+.info-section{
+    text-align: center;
+}
+
+.name{
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 21px;
+    color: #FFFFFF;
+}
+
+.job{
+    margin-top: 6px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin-bottom: 4px;
+}
+
+.website{
+    margin-top: 4px;
+    color: #F5F5F5;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.btn{
+    padding: 18px 59px;
+    border: none;
+    margin: 0px 8px;
+}
+
+.linkedIn{
+    background: url("./images/linkedIn.png") no-repeat;
+    cursor: pointer;
+}
+
+.email{
+    background: url("./images/email.png") no-repeat;
+    cursor: pointer;
+}
+
+.about, .interests{
+    color: #F5F5F5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+    padding: 0 36px;
+    width: 337px;
+}
+
+.about{
+    margin-top: 33px;
+}
+
+.about > h3, .interests > h3{
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.about > p, .interests >p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #dcdcdc;   
+}
+
+.footer{
+    display: flex;
+    margin: 0 auto;
+    width: 317px;
+    padding: 19px;
+    background-color: #161619;
+    padding-left: 73px;
+}
+
+.icon{
+    margin-right: 24px;
+}
